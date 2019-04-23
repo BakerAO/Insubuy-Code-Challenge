@@ -46,13 +46,13 @@
       "bestSellers": true
     },
     {
-    "id": 6,
-    "price": 50,
-    "name": "Visitor Secure",
-    "description": "Fixed plan for domestic travel",
-    "type": "Fixed",
-    "section": "Travel Medical",
-    "bestSellers": false
+      "id": 6,
+      "price": 50,
+      "name": "Visitor Secure",
+      "description": "Fixed plan for domestic travel",
+      "type": "Fixed",
+      "section": "Travel Medical",
+      "bestSellers": false
     },
     {
       "id": 7,

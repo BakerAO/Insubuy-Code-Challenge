@@ -6,7 +6,7 @@ export default class TravelForm extends React.Component {
         this.state = {
             startDate: '',
             endDate: '',
-            policyMax: 'Choose your policy maximum',
+            policyMax: '',
             citizenship: '',
             age: '',
             mailingState: ''
@@ -41,7 +41,7 @@ export default class TravelForm extends React.Component {
         this.setState({
             startDate: '',
             endDate: '',
-            policyMax: 'Choose your policy maximum',
+            policyMax: '',
             citizenship: '',
             age: '',
             mailingState: ''
@@ -82,8 +82,10 @@ export default class TravelForm extends React.Component {
                     <label>Mailing State</label>
                     <input type="text" value={this.state.mailingState} onChange={this.handleMailingStateChange}/>
                     <br /><br />
+
+                    <input type="submit" value="Submit" />
                 </form>
-                <input type="submit" value="Submit" />
+
                 <button onClick={this.handleResetClick}>
                     Reset Form
                 </button>
