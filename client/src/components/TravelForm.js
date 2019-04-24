@@ -83,7 +83,7 @@ export default class TravelForm extends React.Component {
                     <input type="text" value={this.state.mailingState} onChange={this.handleMailingStateChange}/>
                     <br /><br />
 
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="GET QUOTES" />
                 </form>
 
                 <button onClick={this.handleResetClick}>
